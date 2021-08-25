@@ -1,0 +1,363 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.footer_css{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.welcome_css{
+  color:blue;
+  display: flex;
+  justify-content: flex-start;
+  /* text-align: center; */
+  /* margin-top: 400px; */
+}
+
+.parent_btn{
+  width: 100%;
+  text-align: center;
+  /* background-color: blue; */
+  /* color: #fff; */
+}
+
+.title{
+  /* color: aqua; */
+  margin-left: 34px;
+}
+.submit_btn{
+  color: #fff;
+  background-color: blue;
+  width: 10%;
+  border-radius: 10px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  
+}
+/* .app{
+  min-height: 100vh;
+  max-height: auto;
+  background-color: #1e1e1e;
+ } */
+
+.app_heading{
+color: red;
+}
+.heading{
+  text-align: center;
+  font-family: 'Alice', serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color:black;
+  padding-top: 2rem;
+}
+#file[type="file"] {
+	display: none;
+}
+.label-holder {
+	width: 100%;
+	height: 50px;
+  margin-top: 3em;
+  display: grid;
+  place-items: center;
+  
+}
+.label{
+  height: 50px;
+  width: 200px;
+  /* background-color:#2a3eb1; */
+  color: black;
+  display: grid;
+  place-items: center;
+  font-size: 2.5rem ;
+  cursor: pointer;
+  
+}
+
+.result{
+  min-height: 100%;
+  max-height: auto;
+  width: 100%;
+  /* background-color: #272c34; */
+  margin-top:1rem ;
+   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; 
+  
+}
+
+img{
+  width: 320px;
+  height: 180px;
+  object-fit: cover;
+  padding: 0.75rem;
+  
+}
+
+
+.sidebar-sticky{
+  margin-top: 20px;
+  width: 50%;
+  
+}
+    #sidebar-wrapper{
+      min-height: 100vh !important;
+      width: 100vw;
+      margin-left: -1rem;
+      -webkit-transition: margin .25s ease-out;
+      -moz-transition: margin .25s ease-out;
+      -o-transition: margin .25s ease-out;
+      transition: margin .25s ease-out;
+  }
+  #sidebar-wrapper .sidebar-heading {
+      padding: 0.875rem 1.25rem;
+      font-size: 1.2rem;
+  }
+  
+  #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+  }
+  .welcome_about{
+    text-align: center;
+  }
+
+
+
+  /* body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+/* .bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+/* .bgimg-1 {
+  background-image: url('/w3images/parallax1.jpg');
+  min-height: 100%;
+} */
+
+/* Second image (Portfolio) */
+/* .bgimg-2 {
+  background-image: url("/w3images/parallax2.jpg");
+  min-height: 400px;
+} */
+
+
+/* .bgimg-3 {
+  background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+} */
+
+/* .w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  } */
+
+
+
+  @import url(https://fonts.googleapis.com/css?family=Lato:400,600,700);
+.snip1527 {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  float: left;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+  margin: 10px 1%;
+  max-width: 310px;
+  min-width: 250px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.snip1527 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.snip1527 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+.snip1527 figcaption {
+  padding: 25px 20px 25px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+.snip1527 figcaption:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #700877;
+  content: '';
+  background: -moz-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+  background: -webkit-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+  background: linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.snip1527 .date {
+  background-color: #fff;
+  border-radius: 50%;
+  color: #700877;
+  font-size: 18px;
+  font-weight: 700;
+  min-height: 48px;
+  min-width: 48px;
+  padding: 10px 0;
+  position: absolute;
+  right: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  top: -25px;
+}
+
+.snip1527 .date span {
+  display: block;
+  line-height: 14px;
+}
+
+.snip1527 .date .month {
+  font-size: 11px;
+}
+
+.snip1527 h3,
+.snip1527 p {
+  margin: 0;
+  padding: 0;
+}
+
+.snip1527 h3 {
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  margin-bottom: 5px;
+}
+
+.snip1527 p {
+  font-size: 0.8em;
+  line-height: 1.6em;
+  margin-bottom: 0px;
+}
+
+.snip1527 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.snip1527:hover img,
+.snip1527.hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+/* Demo purposes only */
+
+body {
+  background-color: #212121;
+}
+
+
+.sidebar_css{
+  height: 495px;
+  border: 1px solid black;
+}
+
+
+.nav_css{
+  text-align: center;
+}
+
+.content_css{
+  width: 100%;
+  text-align: center;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+.contact_css{
+  text-align: center;
+}
